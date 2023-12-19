@@ -52,10 +52,8 @@ def main():
     for category, label in categories.items():
         all_data.extend(process_category(category, label))
 
-    # 将数据切分为训练集和测试集
     train_data, test_data = train_test_split(all_data, test_size=0.1, random_state=42)
 
-    # 分别写入训练集和测试集数据到CSV文件
     write_csv(train_data, './TrainTest/train_dataset.csv')
     write_csv(test_data, './TrainTest/test_dataset.csv')
 
