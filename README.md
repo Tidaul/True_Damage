@@ -49,6 +49,7 @@ Me and my teammate seperately handled CV and NLP parts, and due to the rush of t
 |Support Vector Classifier	|`0.364726`|`0.701497`|`0.320328`|`0.307200`|
 |Weighted Average			|`0.912671`|`0.915565`|`0.886684`|`0.913261`|
 
+
 Above is the accuracy of several differnt integration methods applied for our test set.
 -   Accuracy for CNN+Resnet(CV) in testset is 80.65%, in trainset is 91%
     
